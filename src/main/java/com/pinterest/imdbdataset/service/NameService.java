@@ -20,7 +20,7 @@ import java.util.*;
 @Order(1)
 public class NameService implements CommandLineRunner {
 
-    private static final String NAME_BASIC_FILE = "/excel2/name.basics.tsv";
+    private static final String NAME_BASIC_FILE = "/excel/name.basics.tsv";
 
     private Set<String> aliveNames = new TreeSet<>();
 

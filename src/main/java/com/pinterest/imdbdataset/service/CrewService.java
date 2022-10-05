@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
 @Order(2)
 public class CrewService implements CommandLineRunner {
 
-    private static final String CREW_FILE = "/excel2/title.crew.tsv";
+    private static final String CREW_FILE = "/excel/title.crew.tsv";
 
     private List<Crew> crewsWithSameDirectorsAndWriters = new ArrayList<>();
 
